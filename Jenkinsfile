@@ -26,7 +26,7 @@ pipeline {
                 sh 'echo "${BUILD_ID}"'
                
         
-            }
+           }
 	}
         stage('Deploy ') {
             environment{ 
